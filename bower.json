@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-dropdown"
+    "url": "git://github.com/childdotorg/iron-dropdown"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/iron-dropdown",
