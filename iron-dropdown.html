@@ -46,7 +46,7 @@ method is called on the element.
   <template>
     <style>
       :host {
-        position: fixed;
+        position: absolute;
       }
 
       #contentWrapper ::slotted(*) {
@@ -268,7 +268,7 @@ method is called on the element.
             this._restoreScrollPosition();
           } else {
             this._refitOnScrollRAF && window.cancelAnimationFrame(this._refitOnScrollRAF);
-            this._refitOnScrollRAF = window.requestAnimationFrame(this.refit.bind(this));
+            this._refitOnScrollRAF = window.requestAnimationFrame(this.resetFit.bind(this));
           }
         },
 
